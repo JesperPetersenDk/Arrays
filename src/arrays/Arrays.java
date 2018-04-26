@@ -21,6 +21,16 @@ public class Arrays {
         
         //udskriver indholdet here
         System.out.println(returnValue);
+        
+        //----------------Anden måde at lave arrays på.-------------------//
+        
+        float[] theValues = {10.4f, 21.3f, 32.22f, 219.022f};
+        float sum = 0.0f;
+        
+        for (int i = 0; i < theValues.length; i++) {
+            sum += theValues[i];
+        }
+        System.out.println(sum);
     }
     
 }
